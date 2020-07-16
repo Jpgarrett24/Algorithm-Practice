@@ -100,14 +100,3 @@ function findConsqSums(nums, sum) {
 };
 console.log(findConsqSums(nums3, sum3));
 console.log(findConsqSums(nums4, sum4));
-
-
-
-// for (let j = i + 1; j < nums.length; j++) {
-//     console.log(i);
-//     if (nums[j] === 0) {
-//         let loopSum = nums.slice(start, j + 1);
-//         result.push(loopSum);
-//         loopSum = [];
-//     }
-// }
