@@ -13,8 +13,6 @@ const expected1 = [
     { i: 7, n: 10 },
 ];
 
-const testCases = [{ arguments: [nums1], expected: expected1 }];
-testDriver([allNonConsecutive], testCases);
 
 function allNonConsecutive(nums) {
     let expected1 = [{ key: "i", value: "n" }]
@@ -58,12 +56,6 @@ const expected2 = [
     [3, 6, 7, 0],
     [3, 6, 7, 0, 0],
 ];
-
-const testCases = [
-    { arguments: [nums1, sum1], expected: expected1 },
-    { arguments: [nums2, sum2], expected: expected2 },
-];
-testDriver([findConsqSums], testCases);
 
 function findConsqSums(nums, sum) {
     let currentSum = 0;
