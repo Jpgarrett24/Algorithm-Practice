@@ -42,11 +42,5 @@ let example2 = {
     first: 4
 };
 
-let example3 = {
-    arr: [6],
-    first: 1
-}
-
 console.log(decode(example1.arr, example1.first));
 console.log(decode(example2.arr, example2.first));
-console.log(decode(example3.arr, example3.first));
